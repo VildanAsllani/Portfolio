@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    <link rel="icon" href="images/logo1.png">
+    <link rel="stylesheet" href="/styles/app.css">
+    <link rel="stylesheet" href="/styles/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <img src="/images/logo.png" alt="Website logo">
+            </div>
+            <i class="fas fa-bars" id="burger" onclick="myFunction()"></i>
+            <nav id="nav">
+                <ul>
+                    <a href="/"><li>HOME</li></a>
+                    <a href="about.html"><li class="active">ABOUT</li></a>
+                    <a href="/"><li>PROJECTS</li></a>
+                    <a href="blog.html"><li>BLOG</li></a>
+                    <a href="contact.html"><li>CONTACT</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="cta-div center max-height">
+        <h1 class="h1 about-cta">
+            I am a passionate <strong>back-end developer</strong> with a solid knowledge of front-end technologies and a good eye for design
+        </h1>
+    </div>
+    <div class="split-about center">
+        <div class="left">
+            <img src="/images/received_10214340036673787.jpeg" alt="">
+        </div>
+        <div class="right">
+            <p>
+                Hello, I am vildan asllani.
+                I studied computer science at Kadri Zeka University in Gjilan.
+                I am a person passionate about technology since a young age and thats what pushed me to study computer science.
+                <br>
+                An ambitious, enthusiastic and committed Computer Science graduate who
+                possesses a genuine interest and understanding of technology. Currently
+                seeking a challenging work placement opportunity within a dynamic Tech firm
+                which will offer early responsibilities, and the opportunity to develop practical
+                computer skills.
+                <br>
+                currently looking for an employment opportunity in a company that will provide early responsibility and space to develop practical computer skills
+            </p>
+        </div>
+    </div>
+
+    <div class="split-about center">
+        <div class="left">
+            <h2>My attributes</h2>
+        </div>
+        <div class="right">
+            <p>
+                <ul>
+                    <li>Communicates effectively and professionally</li>
+                    <li>Driven by personal and collective team success</li>
+                    <li>Strong integrity and moral values</li>
+                    <li>Sociable with great personality</li>
+                </ul>
+           </p> 
+        </div>
+    </div>
+    <div class="split-about center">
+        <div class="left">
+            <h2>How I Work?</h2>
+        </div>
+        <div class="right">
+            <p>Depending on what im working on the workplace is pretty much the same:</p>
+            <ul>IDE
+                <li>Visual Studio 2019</li>
+                <li>Visual Studio Code</li>
+                <li>PhP Storm</li>
+                <li>XAMPP</li>
+                <li>Adobe XD</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+    <section class="center">
+        <div class="section-header">
+            <h1 class="h1">My Skills</h1>
+        </div>
+        <div class="my-skills-section">
+            <div class="section-row">
+                <h3>FRONT END</h3><br>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JAVASCRIPT</li>
+                    <li>JQUERY</li>
+                    <li>BOOTSTRAP</li>
+                    <li>TAILWINDCSS</li>
+                </ul>
+            </div>
+            <div class="section-row">
+                <h3>BACK END</h3><br>
+                <ul>
+                    <li>PHP</li>
+                    <li>C#</li>
+                    <li>LARAVEL</li>
+                    <li>SQL/MYSQL</li>
+                    <li>OOP PROGRAMING</li>
+                    <li>MVC ARCHITECTURE</li>
+                </ul>
+            </div>
+            <div class="section-row">
+                <h3>DESIGNING TOOLS</h3><br>
+                <ul>
+                    <li>ADOBE XD</li>
+                    <li>FIGMA</li>
+                    <li>PHOTOSHOP</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="lets-work-together center">
+            <center>
+                <h1 class="h1">Let's work together.</h1>
+                <p>I'm available for freelance work</p>
+            </center>
+            <div class="grid">
+                <div class="grid-column">
+                    <i class="fas fa-phone"></i>
+                    <strong>Phone Me:</strong>
+                    <p>+383 45 289 099</p>
+                </div>
+                <div class="grid-column">
+                    <i class="fas fa-paper-plane"></i>
+                    <strong>Mail Me:</strong>
+                    <p>vildanasllani@gmail.com</p>
+                </div>
+                <div class="grid-column">
+                    <i class="fab fa-linkedin"></i>
+                    <strong>Check My Work:</strong>
+                    <p><a href="https://github.com/vildanasllani">Github page</a></p>
+                </div>
+            </div>
+        </div>
+        <center> <a href="/contact.html" class="btn-decoration inverse">SAY HELLO <i class="fas fa-long-arrow-alt-right"></i></a></center>
+        <center><p class="copyright">© Copyright Vildan Asllani</p></center>
+    </footer>
+    <script>
+        function myFunction() {
+              var x = document.getElementById("nav");
+              if (x.style.display === "none") {
+                  x.style.display = "block";
+              } else {
+                  x.style.display = "none";
+              }
+      }
+    </script>
+    </body>
+    </html>

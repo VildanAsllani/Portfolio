@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    <link rel="icon" href="images/logo1.png">
+    <link rel="stylesheet" href="/styles/app.css">
+    <link rel="stylesheet" href="/styles/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <img src="/images/logo.png" alt="Website logo">
+            </div>
+            <i class="fas fa-bars" id="burger" onclick="myFunction()"></i>
+            <nav id="nav">
+                <ul>
+                    <a href="/"><li>HOME</li></a>
+                    <a href="about.html"><li>ABOUT</li></a>
+                    <a href="/"><li>PROJECTS</li></a>
+                    <a href="blog.html"><li>BLOG</li></a>
+                    <a href="contact.html"><li class="active">CONTACT</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container center">
+        <h1 class="h1">Get in touch.</h1>
+        <p>If you want to collaborate feel free to send me a message</p>
+        <form class="contact-form">
+            <input type="text" class="input-text" placeholder="Name" required>
+            <input type="email" class="input-text" placeholder="Email" required>
+            <input type="text" class="input-text" placeholder="Subject" required>
+            <textarea name="" id="" cols="30" rows="10" class="input-textarea" required>Message</textarea>
+            <input type="submit" value="Send email" class="btn btn-default input-submit">
+        </form>
+    </div>
+
+    <footer>
+        <div class="lets-work-together center">
+            <center>
+                <h1 class="h1">Let's work together.</h1>
+                <p>I'm available for freelance work</p>
+            </center>
+            <div class="grid">
+                <div class="grid-column">
+                    <i class="fas fa-phone"></i>
+                    <strong>Phone Me:</strong>
+                    <p>+383 45 289 099</p>
+                </div>
+                <div class="grid-column">
+                    <i class="fas fa-paper-plane"></i>
+                    <strong>Mail Me:</strong>
+                    <p>vildanasllani@gmail.com</p>
+                </div>
+                <div class="grid-column">
+                    <i class="fab fa-linkedin"></i>
+                    <strong>Check My Work:</strong>
+                    <p><a href="https://github.com/vildanasllani">Github page</a></p>
+                </div>
+            </div>
+        </div>
+        <center> <a href="/contact.html" class="btn-decoration inverse">SAY HELLO <i class="fas fa-long-arrow-alt-right"></i></a></center>
+        <center><p class="copyright">© Copyright Vildan Asllani</p></center>
+    </footer>
+    <script>
+        function myFunction() {
+              var x = document.getElementById("nav");
+              if (x.style.display === "none") {
+                  x.style.display = "block";
+              } else {
+                  x.style.display = "none";
+              }
+      }
+    </script>
+    </body>
+    </html>
